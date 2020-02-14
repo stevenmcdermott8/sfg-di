@@ -3,16 +3,16 @@ package guru.springframework.sfgdi.services;
 /**
  * stevmc created on 2/8/20
  */
-public class I18nEnglishGreetingService implements GreetingService {
+public class I18GermanGreetingService implements GreetingService {
 
 	private GreetingRepository greetingRepository;
 
-	public I18nEnglishGreetingService(GreetingRepository greetingRepository) {
+	public I18GermanGreetingService(GreetingRepository greetingRepository) {
 		this.greetingRepository = greetingRepository;
 	}
 
 	@Override
 	public String sayGreeting() {
-		return "Hello World - EN";
+		return "Hallo Welt - DE";
 	}
 }
